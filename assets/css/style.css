@@ -3,8 +3,19 @@
   padding: 0%;
 }
 
+.body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+}
+
+.texto {
+  font-weight: 900 !important;
+  font-size: 4rem !important;
+}
+
 .container {
   margin-top: 3%;
+  background-color: rebeccapurple;
 }
 
 hr {
@@ -30,6 +41,12 @@ hr {
 .img2 {
   width: 19.8rem;
   height: 19.3rem;
+}
+
+#milo {
+  max-width: 600px;
+  min-height: 300px;
+  max-height: 300px;
 }
 
 footer {
